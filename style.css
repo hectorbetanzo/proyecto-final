@@ -27,8 +27,8 @@ background-repeat: no-repeat;
 
 
 
-h2 {
-  color: rgb(10, 20, 20);
+.content {
+  color: rgb(6, 7, 7);
   padding: 15px;
   margin: ds15x;
   border: 3px solid black;
@@ -37,9 +37,18 @@ h2 {
 
 h1 {
   font-size: 32px;
-  background: rgb(178, 236, 91);
+  background: rgb(130, 221, 228);
 }
 
 .color {
-  background: rgb(137, 230, 137);
+  background-color: rgb(193 235 230);
+  padding: 20px;
+}
+
+.informacion{  
+
+  color: rgb(12, 10, 10);
+
+  background-color:  rgb(135, 189, 135)
+  
 }
