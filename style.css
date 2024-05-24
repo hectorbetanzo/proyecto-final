@@ -3,8 +3,8 @@
 
 
 body {
-  background-image: url("mundo.jpg");
-background-repeat: no-repeat;
+ 
+
 
 }
 
@@ -12,7 +12,7 @@ background-repeat: no-repeat;
 
 
 .info {
-  background-color: rgb(54, 66, 36);
+  background-color: rgb(72, 78, 62);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -37,7 +37,7 @@ background-repeat: no-repeat;
 
 h1 {
   font-size: 32px;
-  background: rgb(130, 221, 228);
+  background: rgb(131, 148, 150);
 }
 
 .color {
@@ -49,6 +49,47 @@ h1 {
 
   color: rgb(12, 10, 10);
 
-  background-color:  rgb(135, 189, 135)
+  background-color:  rgb(32, 77, 32)
   
+}
+.imagenes{
+ 
+  margin-top: 10px;
+ h2{ 
+  font-size: xx-large;
+
+
+ }
+
+}
+.galeria-principal{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ .sub-content{
+  max-width: 1440px;
+ }
+
+
+}
+.galeria{
+  display: flex ;
+  .content-galeria{
+    display: flex;
+    align-items: center;
+    p{
+      font-size: x-large;
+      
+    }
+    img{
+      height: 500px;
+      border-radius: 10px;
+      margin: 20px;
+
+
+    }
+
+  }
 }
