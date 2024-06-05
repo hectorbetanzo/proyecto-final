@@ -76,23 +76,26 @@ h1 {
 
 }
 .galeria{
-  display: flex ;
+
   .content-galeria{
     display: flex;
     gap: 30px;
     align-items: center;
-    p{
-      font-size: x-large;
-      
-    }
-    img{
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin: 20px;
+
+      p{
+        display: flex;
+        flex: 1;
+        font-size: x-large;
+        
+      }
+      img{
+        height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 20px;
 
 
-    }
+      }
 
   }
 }
